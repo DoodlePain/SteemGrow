@@ -1,0 +1,27 @@
+.modal-card-head {
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  border-bottom: 0px !important;
+  background-color: white !important;
+}
+
+.modal-card-foot {
+  border-bottom-left-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+  border-top: 0px !important;
+  background-color: white !important;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,10 @@
+.card {
+  width: 20%;
+  height: 20%;
+  display: inline-block;
+  background-color: #0284A8;
+}
+
+.a {
+  color: white;
+}
