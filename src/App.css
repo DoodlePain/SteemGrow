@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #466178;
+  background-color: #de5360;
 }
 
 .App-logo {
@@ -43,7 +43,7 @@
   border: 2px black;
   margin: 3%;
   cursor: pointer;
-  background-color: #75A1C7;
+  background-color: #d0e6cd;
   border-radius: 50px
 }
 
@@ -52,7 +52,42 @@
 }
 
 .center {
-  background-color: #212D38;
+  background-color: #3f6083;
   padding: 1% 14% 1% 12%;
   color: white;
+}
+
+.centered {
+  text-align: center;
+}
+
+.padding {
+  display: inline;
+  padding-bottom: 1%
+}
+
+.padding2 {
+  padding-top: 6%
+}
+
+.mod {
+  padding: 4px;
+  margin: -4%;
+}
+
+.littleMargin {
+  margin-bottom: 2%
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
 }

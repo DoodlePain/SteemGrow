@@ -6,6 +6,7 @@ import Card from './components/cardManager/card/card';
 import api from './components/utilities/api'
 import 'reactbulma'
 import Header from './components/Header'
+import Modal from 'react-responsive-modal'
 
 class App extends Component {
   constructor(props) {
@@ -15,12 +16,12 @@ class App extends Component {
       done: 0
     }
   }
-  cardManagerHandler = () => {}
 
   shouldComponentUpdate(nextProps, nextState) {
     if (nextState.done === 1) {
       return false
     }
+
     return true
   }
 
